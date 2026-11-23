@@ -22,3 +22,11 @@ helm install monitoring oci://ghcr.io/prometheus-community/charts/kube-prometheu
 Here, monitoring is the release name.
 
 In simple words: This command installs a complete monitoring stack in Kubernetes so we can monitor our cluster, nodes, and applications from Grafana dashboards using Prometheus metrics.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  commands:
+  ''
+  kubectl port-forward svc/grafana-prom-stack 9090:9090 -n namespace
+  ''
+    
+
