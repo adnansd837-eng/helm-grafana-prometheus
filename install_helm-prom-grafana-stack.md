@@ -26,7 +26,7 @@ In simple words: This command installs a complete monitoring stack in Kubernetes
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   commands:
   ''
-  kubectl port-forward svc/grafana-prom-stack 9090:9090 -n namespace
+  kubectl port-forward svc/grafana-prom-stack 9090:80 -n namespace
   ''
     
 
