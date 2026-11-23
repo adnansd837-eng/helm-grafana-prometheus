@@ -1,4 +1,4 @@
-Helm Install Command – Kube-Prometheus-Stack
+**Helm Install Command – Kube-Prometheus-Stack
 
 Command:
 ''
